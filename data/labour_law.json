@@ -1,0 +1,129 @@
+{
+  "domain": "Labour Law",
+  "authority": "India Code – Government of India",
+  "base_url": "https://www.indiacode.nic.in",
+  "concepts": [
+    {
+      "@id": "https://lawai.ai/concepts/labour/child-labour-prohibition",
+      "@type": "LegalConcept",
+
+      "concept_id": "child_labour_prohibition",
+
+      "concept_description": {
+        "en": "Employment of children below the legally permitted age or adolescents in hazardous work",
+        "hi": "कानूनी रूप से अनुमत आयु से कम बच्चों या खतरनाक कार्यों में किशोरों का रोजगार"
+      },
+
+      "intent_scope": [
+        "Children working in shops, factories, or hotels",
+        "Kids working instead of going to school",
+        "Hazardous work involving adolescents",
+        "Illegal child labour activities"
+      ],
+
+      "legal_domain": ["Labour Law", "Child Protection"],
+
+      "applicable_acts": [
+        {
+          "act_name": "The Child Labour (Prohibition and Regulation) Amendment Act, 2016",
+          "belongs_to": "Indian Labour Laws",
+          "sections": ["Section 3", "Section 14"],
+          "authority": "India Code – Government of India",
+          "jurisdiction": "India",
+          "base_url": "https://www.indiacode.nic.in"
+        }
+      ],
+
+      "core_rules": [
+        "Employment of children below the permitted age is prohibited",
+        "Adolescents are not allowed to work in hazardous occupations"
+      ],
+
+      "citizen_rights": [
+        "Right to education",
+        "Right to protection from exploitation",
+        "Right to report child labour activities"
+      ],
+
+      "recommended_actions": [
+        "Collect basic information about the incident",
+        "Report the matter to the Labour Department or child helpline",
+        "Inform the Child Welfare Committee if required",
+        "Cooperate with authorities during investigation"
+      ],
+
+      "ai_boundaries": {
+        "legal_awareness_only": true,
+        "no_legal_advice": true,
+        "no_outcome_prediction": true,
+        "mandatory_disclaimer": true,
+        "refusal_if_not_in_context": true
+      },
+
+      "version": "1.0.0",
+      "last_reviewed": "2026-01-20"
+    },
+
+    {
+      "@id": "https://lawai.ai/concepts/labour/contract-labour-exploitation",
+      "@type": "LegalConcept",
+
+      "concept_id": "contract_labour_exploitation",
+
+      "concept_description": {
+        "en": "Unfair treatment, unsafe conditions, or exploitation of workers hired through contractors",
+        "hi": "ठेकेदारों के माध्यम से नियोजित श्रमिकों का शोषण या असुरक्षित कार्य परिस्थितियाँ"
+      },
+
+      "intent_scope": [
+        "Poor working conditions for contract workers",
+        "No basic facilities provided by contractor",
+        "Exploitation by contractor or principal employer",
+        "Unsafe work environment for contract labour"
+      ],
+
+      "legal_domain": ["Labour Law"],
+
+      "applicable_acts": [
+        {
+          "act_name": "The Contract Labour (Regulation and Abolition) Act, 1970",
+          "belongs_to": "Indian Labour Laws",
+          "sections": ["Relevant welfare provisions"],
+          "authority": "India Code – Government of India",
+          "jurisdiction": "India",
+          "base_url": "https://www.indiacode.nic.in"
+        }
+      ],
+
+      "core_rules": [
+        "Contract labour must be regulated under law",
+        "Principal employer is responsible for the welfare of contract workers",
+        "Basic facilities and fair treatment must be ensured"
+      ],
+
+      "citizen_rights": [
+        "Right to basic facilities and safe working conditions",
+        "Right to fair treatment regardless of contract status",
+        "Right to complain against exploitation"
+      ],
+
+      "recommended_actions": [
+        "Collect employment details and proof of working conditions",
+        "Raise the issue with the contractor or principal employer in writing",
+        "Approach the Labour Department or Labour Officer",
+        "File a formal complaint if the issue continues"
+      ],
+
+      "ai_boundaries": {
+        "legal_awareness_only": true,
+        "no_legal_advice": true,
+        "no_outcome_prediction": true,
+        "mandatory_disclaimer": true,
+        "refusal_if_not_in_context": true
+      },
+
+      "version": "1.0.0",
+      "last_reviewed": "2026-01-20"
+    }
+  ]
+}
